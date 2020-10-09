@@ -40,7 +40,7 @@ nav a:focus{
   border: 2px;
 }
 
-.skip {
+.skip a{
   background: white;
   left: 0px;
   padding: 6px;
@@ -49,8 +49,7 @@ nav a:focus{
   z-index: 1;
   position: absolute;
   top: -40px;
-  min-width: 100%;
-    
+        
 }                 
 
 .skip a:focus{
@@ -61,7 +60,7 @@ nav a:focus{
   transition: top 1s ease-out;
   z-index: 1;
   position: absolute;       
-  top: 40px;
+  top: 0px;
 }
 
 /*Your Code Here*/
@@ -158,8 +157,7 @@ header p{
 background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
-  text-align: center;
-  vertical-align: middle;
+  align-self: center;
 }
 
 
